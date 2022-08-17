@@ -1,0 +1,49 @@
+.about-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8rem;
+    height: fit-content;
+    margin-top:0px;
+    border: 10px solid rgb(175, 169, 169);
+    border-radius:20px;
+    padding-bottom:20px;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 0.5;
+    width: 100%;
+    height: fit-content;
+    margin-top:0px
+}
+
+
+
+.about-img {
+    margin-top: 40px;
+    pointer-events: none;
+}
+
+.about-img > img {
+    width: 380px;
+    flex: 0.5;
+}
+
+h3{
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 25px;
+}
+
+h6{
+    line-height: 25px;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
